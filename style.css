@@ -93,3 +93,97 @@ header nav > a:last-child {
     background-color: #0DAAC2;
     text-decoration: none;
 }
+
+#home .container > div:first-child > a:last-child {
+    background-color: #FFFFFF;
+    color: #22364A;
+    border: 0.125rem solid #5B7182;
+}
+
+#home img {
+    width: 100%;
+    border-radius: 0.75rem;
+    object-fit: cover;
+}
+
+#about {
+    color: #22364A;
+    background-color: #FFFFFF;
+    padding: 4rem 0;
+}
+
+.container {
+    max-width: 68.75rem;
+    margin: 0 auto;
+}
+
+#about .container {
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.service-cards > div {
+    flex: 1;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    border: 0.125rem solid #0DAAC2;
+}
+
+#projects {
+    background-color: #EEF7FD;
+    color: #22364A;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#projects blockquote {
+    margin: 0;
+    font-size: 1.75rem;
+    line-height: 1.4;
+    font-style: italic;
+}
+
+#projects cite {
+    display: block;
+    margin-top: 1rem;
+    color: #5B7182;
+}
+
+#contact {
+    padding: 4rem 0;
+}
+
+#contact .container {
+    background-color: #0DAAC2;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    border-radius: 0.75rem;
+}
+
+#contact a {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border: 0.125rem solid #ffffff;
+    border-radius: 2rem;
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #22364A;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer p {
+    margin: 0;
+}
